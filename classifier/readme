@@ -1,0 +1,10 @@
+execution:
+	python list.py											//list all classifier
+	python status.py [classifier_id]						//status of [classifier_id]
+	python train.py [classifier_name] [trainingData.csv]	//create new classifier
+	python delete.py [classifier_id]						//delete classifier [classifier_id]
+	python classify.py [classifier_id] [query sentence]		//classify the input sentence
+
+
+
+hotel classifier id: 2374f9x68-nlc-12114
