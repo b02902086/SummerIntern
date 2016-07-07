@@ -7,7 +7,7 @@ natural_language_classifier = NaturalLanguageClassifierV1(username='021a2087-a56
 with open(sys.argv[2], 'rb') as training_data:
   classifier = natural_language_classifier.create(
     training_data=training_data,
-    name=argv[1],
+    name=sys.argv[1],
     language='en'
   )
 print(json.dumps(classifier, indent=2))
