@@ -1,7 +1,7 @@
 import json
 import sys
 from watson_developer_cloud import NaturalLanguageClassifierV1
-natural_language_classifier = NaturalLanguageClassifierV1(username='021a2087-a56b-4296-b5c1-d29f44be4987',password='2Tzpri7E1omT')
+natural_language_classifier = NaturalLanguageClassifierV1(username='aeb5ab44-e7d9-471d-a33c-5a373577f6d6',password='KuHALDJPT3GZ')
 
 
 with open(sys.argv[2], 'rb') as training_data:
